@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.usb{
+    background-color: rgba(91, 91, 92, 0.137);
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border-color: aqua;
+}
+#id{
+    width: 100px;
+    height: 100px;
+    margin-top: 9px;
+    border-radius: 50%;
+    background-color: rgba(95, 99, 102, 0.199);
+    border-color: aqua;
+    margin-left: 150px;
+}
+input{
+    height: 20px;
+    /* margin-top: 210px;
+    margin-left: 0; */
+    border-radius: 20px;
+    background-color: rgba(66, 68, 68, 0);
+    border-color: aquamarine;
+    margin-top: 10px;
+    width: 200px;
+}
+.m{
+    /* display: flex; */
+    margin-top: 50px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgba(66, 68, 68, 0);
+    border-color: aquamarine;
+    color: aliceblue;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input::placeholder{
+    color: aliceblue;
+}
